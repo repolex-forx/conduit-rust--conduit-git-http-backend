@@ -1,0 +1,16 @@
+[2026-11-21T23:31:27Z] === ENRICH ITERATION 1 START | repo=conduit-rust/conduit-git-http-backend sha=7585b3bc ===
+[2026-11-21T23:31:27Z] [iter=1] PHASE START: enrich repo=conduit-rust/conduit-git-http-backend sha=7585b3bc runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/7585b3bc-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/7585b3bc433918c845264fca36a1d268e8f1b643.nq.gz
+[2026-11-21T23:31:29Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-21T23:31:29Z] [iter=1] AST store loaded triples=5421 load_secs=0 mem_mb=91 MB
+[2026-11-21T23:31:29Z] [iter=1] Step 2: Finding LSP targets mem_mb=91 MB
+[2026-11-21T23:31:29Z] [iter=1] LSP targets found call_sites=82 imports=4 extends=0 implements=0 secs=0
+[2026-11-21T23:31:29Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=92 MB
+[2026-11-21T23:31:29Z] [iter=1] Position index built positions=330 nodes_with_types=445 secs=0 mem_mb=92 MB
+[2026-11-21T23:31:29Z] [iter=1] Step 3: Starting LSP resolution mem_mb=92 MB already_completed_types=[] already_completed_files=0
+[2026-11-21T23:31:29Z] [iter=1] Resolving target type target_type=call_site count=82
+[2026-11-21T23:31:42Z] [iter=1] Target type resolved target_type=call_site resolved=59 errors=0 secs=13 mem_mb=92 MB
+[2026-11-21T23:31:42Z] [iter=1] Resolving target type target_type=import_statement count=4
+[2026-11-21T23:31:47Z] [iter=1] Target type resolved target_type=import_statement resolved=4 errors=0 secs=5 mem_mb=92 MB
+[2026-11-21T23:31:52Z] [iter=1] Step 5: Writing final enrichment file triples=782
+[2026-11-21T23:31:52Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/7585b3bc433918c845264fca36a1d268e8f1b643.nq.gz size_kb=10
+[2026-11-21T23:31:52Z] [iter=1] PHASE END: enrich elapsed_s=26 elapsed_min=0.4 total_triples=782

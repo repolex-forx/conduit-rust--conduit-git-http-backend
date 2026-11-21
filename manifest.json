@@ -19,6 +19,41 @@
       ],
       "ast": [
         "aggregate/ast/7585b3bc433918c845264fca36a1d268e8f1b643/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/7585b3bc433918c845264fca36a1d268e8f1b643.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "conduit",
+          "ecosystem": "CARGO",
+          "version": "0.10.0",
+          "githubOrg": "conduit-rust",
+          "githubRepo": "conduit",
+          "githubCommit": "79b519a88e8e351af6d0dddfdb7541862144701e",
+          "githubTag": "v0.10.0",
+          "githubUrl": "https://github.com/conduit-rust/conduit",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "flate2",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "rust-lang",
+          "githubRepo": "flate2-rs",
+          "githubUrl": "https://github.com/rust-lang/flate2-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "http",
+          "ecosystem": "CARGO",
+          "version": "0.2.12",
+          "githubOrg": "hyperium",
+          "githubRepo": "http",
+          "githubCommit": "351b63a991fe508e70a00af13e66099b3055c73f",
+          "githubTag": "v0.2.12",
+          "githubUrl": "https://github.com/hyperium/http",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/http-0.2.12/src/response.rs"
+        }
       ]
     }
   ],
