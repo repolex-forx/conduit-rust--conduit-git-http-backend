@@ -1,0 +1,27 @@
+{
+  "manifest_version": "1.0",
+  "org": "conduit-rust",
+  "repo": "conduit-git-http-backend",
+  "versions": [
+    {
+      "commit": "7585b3bc433918c845264fca36a1d268e8f1b643",
+      "parsed_at": "2026-11-21T23:26:08.806566+00:00",
+      "tag": "v0.10.0",
+      "filetree": "filetree/7585b3bc433918c845264fca36a1d268e8f1b643.nq.gz",
+      "blobs": [
+        "blob/ef37c427bb04e60a06b59dbc9da5f18b58dbf205.nq.gz",
+        "blob/16fe87b06e802f094b3fbb0894b137bca2b16ef1.nq.gz",
+        "blob/46366029837b11c7f34259655399bbbd355393f3.nq.gz",
+        "blob/cd82017eaa559c9f89ff59e852cabed123ad3ba9.nq.gz",
+        "blob/a9d37c560c6ab8d4afbf47eda643e8c42e857716.nq.gz",
+        "blob/1b88a9591c047c0e7bd153770944da7a4ceccc99.nq.gz",
+        "blob/39e0ed6602151f235148e6c08413aa7eda5b9038.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
